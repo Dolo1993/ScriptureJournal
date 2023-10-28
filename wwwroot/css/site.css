@@ -1,0 +1,59 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: mediumblue;
+}
+p a{
+    background-color: #007BFF;   
+    text-decoration: none;
+    color: #fff;   
+    padding: 10px;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    font-size: 16px 
+}
+    p a.hover {
+        background-color: #0056b3;  
+    }
+/* CSS for the form */
+
+form {
+    background-color: whitesmoke;  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;  
+    border-radius: 10px;  
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);  
+} 
+/*css for h1*/
+h1 {
+    font-size: 20px;
+    text-align: center;
+    font-family: cursive; 
+    background-color: white; 
+    width: 20%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+ 
